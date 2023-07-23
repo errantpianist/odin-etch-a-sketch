@@ -1,3 +1,7 @@
+* {
+  background-color: azure;
+}
+
 .cell {
     background-color: white;
 }
@@ -8,4 +12,36 @@
     border: 1px solid #000;
     margin: 0 auto;
     display: grid;
+    box-shadow: 5px 5px 5px 0px grey;
+}
+
+h2 {
+    text-align: center;
+}
+
+#container {
+  display: flex;
+  align-items: center;
+}
+
+button {
+  border-radius: 5px;
+  padding: 10px;
+  margin: 2px;
+  height: 40px;
+  width: 80px;
+  font-size: 16px;
+}
+button:hover {
+  background-color: #ddd;
+}
+
+#slider {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.active {
+  background-color: turquoise;
 }
